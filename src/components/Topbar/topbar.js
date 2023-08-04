@@ -42,7 +42,7 @@ function TopBar() {
             <div className="topBarContainor">
                 <div className="topBarLeft">
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <span className="logo">Social Sphere</span>
+                        <span className="logo">SocialVista</span>
                     </Link>
                 </div>
                 <div className="topBarCenter">
