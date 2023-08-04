@@ -20,6 +20,7 @@ export default function Messanger() {
     // console.log(socket.current)
 
     useEffect(()=>{
+        // socket.current = (io('ws://localhost:8900'));
         socket.current = (io('wss://social-vista-socket-server.glitch.me/'));
         socket.current.on("getMessage", data=>{
             console.log("message Receiver")
