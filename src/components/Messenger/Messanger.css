@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.messanger{
+    height: calc(100vh - 50px);
+    display: flex;
+    /* background-color: coral; */
+    /* background-image: linear-gradient(rgb(238, 245, 255), rgb(155, 202, 123)); */
+    /* background-image: linear-gradient(rgb(238, 245, 255), rgb(123, 124, 202)); */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(247, 247, 255));
+}
+
+.chatMenu{
+    flex : 3.5;
+}
+.chatBox{
+    flex : 5.5;
+}
+.chatOnline{
+    flex : 3;
+}
+
+.chatMenuWrapper, .chatBoxWrapper, .chatOnlineWrapper{
+    padding: 10px;
+    height: calc(100vh - 70px);
+}
+
+.chatMenuInput{
+    padding: 6px 5px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+.chatMenuInput:focus{
+    outline: none;
+}
+
+
+.chatBox{
+    /* background-color: rgb(234, 255, 220); */
+    background-image: linear-gradient(rgb(238, 245, 255), rgb(178, 230, 144));
+    background-image: linear-gradient(rgb(250, 252, 255), rgb(235, 237, 255));
+}
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 10px;
+}
+.chatboxtop{
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+.chatboxtop::-webkit-scrollbar{
+    width: 6px;
+    margin-right: -5px;
+}
+.chatboxtop::-webkit-scrollbar-track{
+    background-color: rgb(238, 238, 238);
+    /* visibility: hidden; */
+}
+.chatboxtop::-webkit-scrollbar-thumb{
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    /* visibility: hidden; */
+}
+
+.chatboxbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NoConversation{
+    font-size: 42px;
+    color: rgb(195, 204, 255);
+    margin: auto;
+    font-weight: bold;
+}
+
+.sendmessageInput{
+    width: 84%;
+    /* border: none; */
+    resize: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 65.5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.sendmessagebtn{
+    width: 83px;
+    height: 31px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #2a6dff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+.sendmessagebtn:hover{
+    background-color: rgb(31, 35, 255);
+    border: 1px solid black;
+    border: none;
+}
+

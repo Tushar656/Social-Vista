@@ -1,0 +1,197 @@
+.topBarContainor{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(53, 164, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.topBarLeft{
+    flex: 3;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.topBarLeft .logo{
+    color: white;
+}
+
+.topBarCenter{
+    flex: 5;
+    width: 100%;
+}
+.searchBar{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 30px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.searchBarI{
+    width: 100%;
+    height: 38px;
+    /* border-radius: 0px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.searchBar .searchIcon{
+    font-size: 20px !important;
+    margin-left: 12px;
+    margin-right: 2px;
+}
+.searchedItems{
+    width: 100%;
+    /* position: absolute; */
+    /* margin-top: 3px; */
+    top: 30px;
+    left: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+    border-top: 0px;
+    /* -webkit-box-shadow: 0px 16px 15px -10px rgba(163,163,163,1);
+    -moz-box-shadow: 0px 16px 15px -10px rgba(163,163,163,1);
+    box-shadow: 0px 16px 15px -10px rgba(163,163,163,1); */
+    
+}
+.searchItem{
+    /* width: 100%; */
+    /* background-color: white; */
+    height: 35px;
+    font-size: 22px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 1px 35px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.searchItem:hover{
+    background-color: rgb(249, 249, 249);
+}
+.topBarCenter input{
+    height: 28px;
+    width: 85%;
+    border: none;
+    font-size: 19px;
+    padding: 0px 10px;
+}
+.topBarCenter input:focus{
+    outline: none;
+}
+
+.topBarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topBarRight .topBarLink{
+    margin-right: 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.topbarIconBox{
+    display: flex;
+}
+.topBarIcons{
+    margin-right: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.topBarIconBadge{
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    height: 13px;
+    min-width: 13px;
+    background-color: red;
+    font-size: 11px;
+    padding: 0.8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbarProfileinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.topBarImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.topbarArrow{
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.settingBox{
+    background-color: rgb(235, 235, 235);
+    columns: white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+    top: 55px;
+    padding: 4px;
+    border-radius: 10px;
+    color: rgb(44, 44, 44);
+}
+.BoxprofileSection{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+.BoxprofileSection:hover{
+    background-color: rgb(179, 179, 179);
+}
+.BoxProfile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.boxProfileName{
+    margin-left: 30px;
+}
+.logouticonsec{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+}
+
+
+.loginBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

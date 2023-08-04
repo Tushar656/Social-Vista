@@ -1,0 +1,95 @@
+.shareContainor{
+    width: 100%;
+    /* height: 150px; */
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+}
+.shareWrapper{
+    padding: 10px;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.shareInput{
+    width: 85%;
+    border: none;
+    resize: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    max-height: 65.5px;
+    overflow-y: hidden;
+}
+.shareInput:focus{
+    outline: none;
+}
+.shareInput::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+.ShareHR{
+    margin: 10px 0px;
+}
+.sharepostfile{
+    position: relative;
+}
+.shareImage{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.cancleImg{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shareOptions{
+    display: flex;
+    margin: 15px 0px;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.shareOption:hover{
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    font-size: 15.2px;
+}
+.ShareIcon{
+    margin-right: 5px;
+}
+.sharebtn{
+    border: none;
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(151, 208, 255);
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: auto;
+}
+.sharebtn:hover{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    border: 2px solid black;
+}

@@ -1,0 +1,140 @@
+.PostContainor{
+    width: 100%;
+    margin: 30px 0px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+    border-radius: 10px;   
+    padding: 10px;
+    padding-bottom: 5px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopleft{
+    display: flex;
+    align-items: center;
+}
+.postprofileimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postUserName{
+    font-size: 16px;
+    margin: 0px 12px;
+    font-weight: bold;
+}
+.PostProfileLink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.postTime{
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+}
+
+
+.PostrightIcon{
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 1px;
+}
+.PostrightIcon:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+
+.postText{
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.postImg{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    max-height: 500px;
+    object-fit: contain;
+    margin-bottom: 0px;
+}
+
+.postBottom{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-right: 10px;
+}
+.postbottomIcons{
+    display: flex;
+    align-items: center;
+}
+.likeIcon , .CommentIcon{
+    font-size: 30px !important;
+    margin-left: 15px;
+    /* margin-top: -5px; */
+    /* margin-bottom: 6px; */
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+    font-weight: lighter;
+}
+.likeIcone{
+    font-size: 30px !important;
+    margin-left: 15px;
+    width: 27px;
+    cursor: pointer;
+    /* color: rgb(65, 65, 65); */
+    opacity: 1;
+    
+}
+.likeIcon:hover , .CommentIcon:hover{
+    color: rgb(119, 119, 119);
+}
+.postbottemtext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.postbottomHR{
+    margin-bottom: 5px;
+    margin-left: -25px;
+    width: 107%;
+    border: 0.01px solid rgb(226, 226, 226);
+}
+.commentSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.postCommentCounter{
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+.commentBox{
+    width: 90%;
+    /* height: 25px; */
+    border: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+.commentBox:focus{
+    outline: none;
+}
+.commentPost{
+    color: rgb(74, 74, 255);
+    cursor: pointer;
+}
+.commentPost:hover{
+    font-weight: bold;
+    color: blue;
+}

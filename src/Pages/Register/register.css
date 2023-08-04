@@ -1,0 +1,64 @@
+
+.RegisterContainor{
+    width: 80%;
+    height: 65vh;
+    background-image: linear-gradient(to right, rgb(37, 41, 255), rgb(0, 195, 255));
+    margin: 20px auto;
+    border-radius: 15px;
+    display: flex;
+}
+.RegLeftSide{
+    padding: 160px 0px 3px 18px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.RegLoginbtn{
+    background-color: blue;
+    border-radius: 15px;
+    width: 110px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+    border: 2px solid white;
+}
+.RegLoginbtn:hover{
+    background-color: rgb(199, 199, 199);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.RegRightSide{
+    width: 70%;
+    height: 80%;
+    background-color: rgb(232, 227, 255);
+    margin: auto 20px;
+    border-radius: 30px;
+}
+.RegRightSide .RegBtns{
+    float: right;
+    display: flex;
+    margin: 5px 12px;
+    background-color: blue;
+    border-radius: 39px;
+    padding: 4px;
+}
+.RegSubForm{
+    clear: both;
+    margin: 10px 20px;
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.RegSubForm input{
+    width: 90%;
+    height: 20px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

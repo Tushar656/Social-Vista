@@ -1,0 +1,26 @@
+body{
+    margin: 0;padding: 0;
+}
+.conversation{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 90%;
+}
+.conversation:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+.conversationImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.conversationName{
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+}
