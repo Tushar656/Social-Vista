@@ -52,6 +52,5 @@
   },
   "engines": {
     "node": "16.x"
-  },
-  "proxy": "https://social-vista-server.glitch.me/"
+  }
 }

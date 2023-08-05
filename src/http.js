@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "API/",
+  baseURL: "https://social-vista-server.glitch.me/API/",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
