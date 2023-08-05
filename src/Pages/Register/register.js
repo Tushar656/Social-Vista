@@ -36,8 +36,8 @@ function Register() {
         <div className="login">
             <div className="RegisterContainor">
                 <div className="RegLeftSide">
-                    <div style={{fontSize: '28px'}}>Welcome to iChat</div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sunt.</div>
+                    <div style={{fontSize: '28px'}}>Welcome to SocialVista</div>
+                    <div>Connecting hearts, sharing stories, and spreading smiles across the digital horizon.</div>
                     <a href="/login"><button className="RegLoginbtn">Login</button></a>
                 </div>
                 <div className="RegRightSide">

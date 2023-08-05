@@ -23,8 +23,8 @@ function Login() {
         <div className="login">
             <div className="loginWrapper">
                 <div className="loginleft">
-                    <h3 className="loginLogo">iChat App</h3>
-                    <span className="loginDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis.</span>
+                    <h3 className="loginLogo">SocialVista</h3>
+                    <span className="loginDesc">Connecting hearts, sharing stories, and spreading smiles across the digital horizon.</span>
                 </div>
                 <div className="loginright">
                     <form className="loginBox" onSubmit={loginsubmit}>
