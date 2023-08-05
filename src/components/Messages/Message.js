@@ -20,7 +20,7 @@ function Message({messages, own}) {
             <div className={own? "messagecontainor own": "messagecontainor"}>
                 <div className="messageTop">
                     <div className="messageProfile">
-                        {Sender && <img src={Sender.ProfilePicture? PF + Sender.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" />}
+                        {Sender && <img src={Sender.ProfilePicture? Sender.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" />}
                     </div>
                     <div className="messageMain">{messages.text}</div>
                 </div>

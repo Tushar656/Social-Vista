@@ -33,7 +33,7 @@ export const OnlineChat = ({onlineUsers, currentId, setCurrentChat}) => {
             {onlinefriends.map((o)=>(
                 <div className="chatOnlineFriends" key={o._id} onClick={()=> handleClick(o)}>
                     <div className="chatOnlinefdsImage">
-                        <img src={o?.ProfilePicture? PF + o?.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="chatOnlineProImg" />
+                        <img src={o?.ProfilePicture? o?.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="chatOnlineProImg" />
                         <span className="chatonlineBadge"></span>
                     </div>
                     <span className="chatOnlineName">{o?.username}</span>

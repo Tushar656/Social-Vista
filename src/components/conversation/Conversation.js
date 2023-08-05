@@ -45,7 +45,7 @@ function Conversation({currentUser, conversations, socket}) {
         <>
             {friend && <div className="conversation sidebarListItems chatItems">
                 <div className='forChatItem'>
-                    <img src={friend.ProfilePicture? PF + friend.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="conversationImg" />
+                    <img src={friend.ProfilePicture? friend.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="conversationImg" />
                     <span className="conversationName">{friend.username}</span>
                 </div>
                 {countUnSeen > 0 && <div className='allmsgCount'>{countUnSeen}</div>}

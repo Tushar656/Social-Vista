@@ -46,13 +46,13 @@ function Profile() {
                             {
                                 currentUser?._id === user?._id ? (
                                     <div>
-                                        <img onClick={() => setUpdateModal(true)} src={(user.CoverPicture)?(PublicFolder+user.CoverPicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690720165/az3km4c2vgd8nykum9w6.jpg')} alt="" className="profileCoverImg" />
-                                        <img onClick={() => setUpdateModal(true)} src={(user.ProfilePicture)?(PublicFolder+user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="profileMainImg" />
+                                        <img onClick={() => setUpdateModal(true)} src={(user.CoverPicture)?(user.CoverPicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690720165/az3km4c2vgd8nykum9w6.jpg')} alt="" className="profileCoverImg" />
+                                        <img onClick={() => setUpdateModal(true)} src={(user.ProfilePicture)?(user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="profileMainImg" />
                                     </div>
                                 ) : (
                                     <div>
-                                        <img src={(user.CoverPicture)?(PublicFolder+user.CoverPicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690720165/az3km4c2vgd8nykum9w6.jpg')} alt="" className="profileCoverImg" />
-                                        <img src={(user.ProfilePicture)?(PublicFolder+user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="profileMainImg" />
+                                        <img src={(user.CoverPicture)?(user.CoverPicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690720165/az3km4c2vgd8nykum9w6.jpg')} alt="" className="profileCoverImg" />
+                                        <img src={(user.ProfilePicture)?(user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="profileMainImg" />
                                     </div>
                                 )
                             }

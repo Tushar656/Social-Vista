@@ -141,7 +141,7 @@ function Rightbar({user}) {
                             frineds.map((friend)=>(
                                 <Link key={friend._id} to={'/profile/'+friend.username} className="FriendLink">
                                     <div className="rightBarFollowing" key={friend._id}>
-                                        <img src={friend.ProfilePicture ? PublicFolder+friend.ProfilePicture : PublicFolder+'profiles/DefProfile.png'} alt="" className="rpFollowingImg" />
+                                        <img src={friend.ProfilePicture ? friend.ProfilePicture : 'profiles/DefProfile.png'} alt="" className="rpFollowingImg" />
                                         <span className="rpFollowingName">{friend.username}</span>
                                     </div>
                                 </Link>

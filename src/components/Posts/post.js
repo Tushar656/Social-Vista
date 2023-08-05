@@ -51,7 +51,7 @@ function Post({post}) {
                 <div className="postTop">
                     <div className="postTopleft">
                         <Link className="PostProfileLink" to={`/profile/${user.username}`}>
-                            <img src={(user.ProfilePicture)?(PublicFolder+user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="postprofileimg" />
+                            <img src={(user.ProfilePicture)?(user.ProfilePicture):('http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png')} alt="" className="postprofileimg" />
                             <span className="postUserName">{user.username}</span>
                         </Link>
                         <span className="postTime">{format(post.createdAt)}</span>
@@ -62,7 +62,7 @@ function Post({post}) {
                 </div>
                 <div className="postCenter">
                     <div className="postText">{post?.disc}</div>
-                    <img src={PublicFolder + post.image} alt="" className="postImg" />
+                    <img src={post.image} alt="" className="postImg" />
                 </div>
                 <div className="postBottom">
                     <div className="postbottemleft">

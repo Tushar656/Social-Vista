@@ -84,13 +84,13 @@ function TopBar() {
                     </div>
                     {user ? (<div className="topbarProfileinfo">
                         <Link to={`/profile/${user.username}`}>
-                            <img src={user.ProfilePicture ? PF + user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="topBarImage" />
+                            <img src={user.ProfilePicture ? user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="topBarImage" />
                         </Link>
                         <div className='topbarArrow' onClick={dotClickHendler}><MoreVertIcon />
                             {dotClicked && <div className="settingBox">
                                 <Link to={`/profile/${user.username}`} style={{color: "inherit", textDecoration: "none"}}>
                                     <div className="BoxprofileSection">
-                                        <img src={user.ProfilePicture ? PF + user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="BoxProfile" />
+                                        <img src={user.ProfilePicture ? user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="BoxProfile" />
                                         <div className="boxProfileName">
                                             <h3>{user.username}</h3>
                                             <h5>See Your Profile</h5>

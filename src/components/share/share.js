@@ -50,7 +50,7 @@ function Share() {
         <div className="shareContainor">
             <div className="shareWrapper">
                 <div className="shareTop">
-                    <img src={user.ProfilePicture ? PF + user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="shareImg" />
+                    <img src={user.ProfilePicture ? user.ProfilePicture : 'http://res.cloudinary.com/dgsssyya9/image/upload/v1690719882/l3ne7oanlrxx1xovf3lf.png'} alt="" className="shareImg" />
                     <TextareaAutosize ref={desc} className="shareInput" placeholder={"What's in your mind " + user.username + "?"} />
                 </div>
                 <hr className="ShareHR" />
