@@ -1,3 +1,15 @@
+/* Responsive Post Styles */
+@media (max-width: 700px) {
+    .post {
+        width: 98vw;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+    .postImg {
+        max-width: 100vw;
+        height: auto;
+    }
+}
 .PostContainor{
     width: 100%;
     margin: 30px 0px;

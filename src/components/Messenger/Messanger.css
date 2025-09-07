@@ -1,3 +1,15 @@
+/* Responsive Messenger Styles */
+@media (max-width: 900px) {
+    .messenger {
+        flex-direction: column;
+        width: 100vw;
+        min-width: unset;
+    }
+    .chatMenu, .chatBox, .chatOnline {
+        width: 100vw;
+        min-width: unset;
+    }
+}
 body{
     margin: 0px;
     padding: 0px;

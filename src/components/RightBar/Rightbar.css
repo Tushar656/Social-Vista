@@ -1,3 +1,9 @@
+/* Responsive Rightbar Styles */
+@media (max-width: 1100px) {
+    .rightbar {
+        display: none;
+    }
+}
 .RightBar{
     flex: 3.5; 
     height: calc(100vh - 50px);

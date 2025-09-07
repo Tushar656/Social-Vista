@@ -1,3 +1,11 @@
+/* Responsive Online Styles */
+@media (max-width: 700px) {
+    .online {
+        width: 98vw;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+}
 
 .rightMainContainor{
     margin-top: 28px;

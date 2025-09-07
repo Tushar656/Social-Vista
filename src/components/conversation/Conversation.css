@@ -1,3 +1,11 @@
+/* Responsive Conversation Styles */
+@media (max-width: 700px) {
+    .conversation {
+        width: 98vw;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+}
 body{
     margin: 0;padding: 0;
 }

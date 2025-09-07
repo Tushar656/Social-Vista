@@ -20,6 +20,50 @@
     width: 110px;
     height: 30px;
     font-size: 18px;
+    /* Responsive Register Page Styles */
+    @media (max-width: 900px) {
+        .registerWrapper {
+            flex-direction: column;
+            min-height: unset;
+            max-width: 98vw;
+            width: 98vw;
+            border-radius: 12px;
+        }
+        .registerLeft, .registerRight {
+            padding: 1.5rem 1rem;
+            min-width: unset;
+        }
+        .registerBox {
+            max-width: 100%;
+            padding: 1.5rem 1rem;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .registerWrapper {
+            width: 100vw;
+            max-width: 100vw;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .registerLeft, .registerRight {
+            padding: 1rem 0.5rem;
+        }
+        .registerLogo {
+            font-size: 2rem;
+        }
+        .registerDesc {
+            font-size: 1rem;
+        }
+        .registerBox {
+            padding: 1rem 0.5rem;
+            gap: 0.8rem;
+        }
+        .registerInput, .registerBtn {
+            font-size: 1rem;
+            height: 38px;
+        }
+    }
     font-weight: bold;
     color: white;
     margin-top: 80px;

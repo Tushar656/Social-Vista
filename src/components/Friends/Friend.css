@@ -1,3 +1,11 @@
+/* Responsive Friend Styles */
+@media (max-width: 700px) {
+    .friend {
+        width: 98vw;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+}
 .sidebarFriendList{
     margin: 0;
     padding: 0;

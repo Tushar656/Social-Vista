@@ -1,3 +1,11 @@
+/* Responsive OnlineChat Styles */
+@media (max-width: 700px) {
+    .onlineChat {
+        width: 98vw;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+}
 .chatOnlineFriends{
     display: flex;
     align-items: center;

@@ -21,7 +21,8 @@ export default function Messanger() {
 
     useEffect(()=>{
         // socket.current = (io('ws://localhost:8900'));
-        socket.current = (io('wss://social-vista-socket-server.glitch.me/'));
+        // socket.current = (io('wss://social-vista-socket-server.glitch.me/'));
+        socket.current = (io('wss://social-vista-socket.onrender.com'));
         socket.current.on("getMessage", data=>{
             console.log("message Receiver")
             setArrivalmessages({

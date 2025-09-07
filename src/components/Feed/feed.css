@@ -1,3 +1,16 @@
+/* Responsive Feed Styles */
+@media (max-width: 900px) {
+    .feed {
+        width: 100vw;
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .feed {
+        padding: 0 0.1rem;
+    }
+}
 .Feed{
     flex: 5.5;
     /* height: calc(100vh - 50px); */
